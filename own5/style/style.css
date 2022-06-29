@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Goldman', cursive;
+}
+.changeColor {
+    background-color: #FFC632 ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.changeColor a{
+    color: #000;
+}
+.changeColor a:hover{
+    color: white;
+}
+
+.banner-custom{
+    position: relative; 
+    background-repeat:  no-repeat;   
+    height: 100vh;
+    background-color: #08070e;
+
+ }
+.B-custom{
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1052,h=624,fit=crop/jesperokmqt/Group-AR0ZRMQP02TxQa5Y.png);
+    background-repeat:  no-repeat;   
+    height: 100vh;
+    background-color: #08070e;
+    background-position: right;
+}
+.C-custom{
+    background-image: url(https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=704,h=1008,fit=crop/jesperokmqt/cdrfr-mv038JXM5oiDyP4B.png);
+    background-repeat:  no-repeat;   
+    height: 100vh;
+    background-color: #08070e;
+    background-position: right;
+}
+.navbar a:hover {
+    border-bottom: 1px white solid;
+}
+.img1{
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+.buy{
+    font-weight: bold;
+    border-style: none;
+    color: black;
+    background-color: #FFC632 ;
+    width: 260px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: -5px;
+}
+ 
+button:hover{
+    background-color: azure;
+}
+
+
+.img2{
+    position: relative;
+    width: 100%;
+}
+.buy-1{
+    font-weight: bold;
+   
+    color: black;
+    background-color: #FFC632 ;
+    width: 149.7px;
+    height: 42px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: -5px;
+    word-spacing: 2px;
+}
+.buy-2{
+   
+    border: none;
+    color: black;
+    background-color: #FFC632 ;
+    width: 149.7px;
+    height: 42px;
+    text-decoration: none;
+    font-size: 14px;
+  
+    
+}
+
+.banner12{
+    background-image: url(https://images.pexels.com/photos/5222282/pexels-photo-5222282.jpeg);
+    background-size: cover;
+    background-position: center;  
+    height: 560px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+ }
+.img-4{
+    top: 11vh;
+    padding-left: 20.9vh;   
+}
